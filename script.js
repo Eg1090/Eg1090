@@ -33,3 +33,4 @@ function generateReport() {
 
     document.getElementById("report").innerText = report;
 }
+    
