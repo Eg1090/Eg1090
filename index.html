@@ -1,0 +1,26 @@
+!<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG's Bookkeeping App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GG's Bookkeeping App</h1>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" placeholder="Enter category">
+
+        <button onclick="recordTransaction()">Record Transaction</button>
+        <button onclick="generateReport()">Generate Report</button>
+
+        <div id="report"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
